@@ -1,6 +1,7 @@
 ###### LEARN JAVA: METHODS
 
 #### Calling Methods
+
 When we add a non-static method to a class, it becomes available to use on an object of that class. In order to have our methods get executed, we must call the method on the object we created.
 
 Let’s add a non-static startEngine() method to our Car class from the previous lesson. Inside the main() method, we’ll call startEngine() on the myFastCar object:
