@@ -8,11 +8,12 @@ We should write code that is easy for other people to read. Those people can be 
 Java does not interpret whitespace, the areas of the code without syntax, but humans use whitespace to read code without difficulty.
 
 Functionally, these two code samples are identical:
-
-> System.out.println("Java");System.out.println("Lava");System.out.println("Guava");
+```
+System.out.println("Java");System.out.println("Lava");System.out.println("Guava");
 System.out.println("Java");
 System.out.println("Lava"); 
 System.out.println("Guava");
+```
 
 They will print the same text to the screen, but which would you prefer to read? Imagine if it was hundreds of instructions! Whitespace would be essential.
 

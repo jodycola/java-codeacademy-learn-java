@@ -38,6 +38,7 @@ Practice some of these concepts here, to make sure you have a solid foundation f
 4. How much money did you give your friends, anyway?
 
     Use + and System.out.println() to print out:
-
-    >I gave each friend <amountForEachFriend>...
+```
+    I gave each friend <amountForEachFriend>...
     with the value of amountForEachFriend where <amountForEachFriend> is.
+```

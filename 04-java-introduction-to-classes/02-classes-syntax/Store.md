@@ -9,8 +9,8 @@ A class is the set of instructions that describe how an instance can behave and 
 Java has pre-defined classes such as System, which we’ve used in logging text to our screen, but we also need to write our own classes for the custom needs of a program.
 
 Here’s a definition of a Java class:
-
->public class Car {
+```
+public class Car {
 // scope of Car class starts after curly brace
   public static void main(String[] args) {
     // scope of main() starts after curly brace
@@ -19,6 +19,7 @@ Here’s a definition of a Java class:
   // scope of main() ends after curly brace
 }
 // scope of Car class ends after curly brace
+```
 
 This example defines a class named Car. public is an access level modifier that allows other classes to interact with this class. For now, all classes will be public.
 

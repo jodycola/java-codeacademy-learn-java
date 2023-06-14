@@ -7,9 +7,9 @@ Throughout this lesson, we’ve discussed the different ways we can manipulate a
 For example, the year we were born will always stay the same. There’s no way we can change that information. A value like this in our code should be unchangeable.
 
 To declare a variable with a value that cannot be manipulated, we need to use the final keyword. To use the final keyword, prepend final to a variable declaration like so:
-
-> final int yearBorn = 1968;
-
+```
+final int yearBorn = 1968;
+```
 When we declare a variable using final, the value cannot be changed; any attempts at doing so will cause an error to occur:
 
 error: cannot assign a value to final variable yearBorn

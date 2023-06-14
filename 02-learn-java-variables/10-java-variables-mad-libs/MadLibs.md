@@ -26,11 +26,11 @@ Mad Libs
 1. Let’s create a comment that describes the program!
 
     The /* and */ are already in place for you. In between them, write a description that looks something like:
-
->This program generates a mad libbed story.
+```
+This program generates a mad libbed story.
 Author: Laura
 Date: 2/19/2049
-
+```
 2. Take a look at the variable named story. It is set equal to a string that will contain our story.
 
     All of these variables will need to be declared and initialized before the code will compile without errors.

@@ -1,4 +1,4 @@
-####### HELLO WORLD
+###### HELLO WORLD
 
 #### Compilation: Catching Errors
 
@@ -17,13 +17,13 @@ The Java compiler runs a series of checks while it transforms the code. Code tha
 This exercise will use an interactive terminal. Codecademy has a lesson on the command line if you’d like to learn more.
 
 For example, with a file called Plankton.java, we could compile it with the terminal command:
-
-> javac Plankton.java
-
+```
+javac Plankton.java
+```
 A successful compilation produces a .class file: Plankton.class, that we execute with the terminal command:
-
-> java Plankton
-
+```
+java Plankton
+```
 An unsuccessful compilation produces a list of errors. No .class file is made until the errors are corrected and the compile command is run again.
 
 #### Instructions

@@ -3,9 +3,9 @@
 #### Order of Operations
 
 If we were to place multiple operators in a single expression, what operation would the compiler evaluate first?
-
-> int num = 5 * (10 - 4) + 4 / 2;
-
+```
+int num = 5 * (10 - 4) + 4 / 2;
+```
 The order of operations dictates the order in which an expression (like the one above) is evaluated. Operators that share the same precedence are evaluated from Left-to-Right within the expression.
 
 The order is as follows:

@@ -7,13 +7,14 @@ Let’s say we are writing a program that represents a user’s bank account. Wi
 Lucky for us, we have the ability to manipulate the value of our variables. We can use expressions, arithmetic operators, and more in order to change our variables’ values.
 
 For example, Java has built-in arithmetic operations that perform calculations on numeric values:
-
->// declare initial balance
+```
+// declare initial balance
 double balance = 20000.99;
 // declare deposit amount
 double depositAmount = 1000.00;
 // store result of calculation in our original variable
 balance = balance + depositAmount;
+```
 In the final line of the code above, we used the expression balance + depositAmount to determine the new value of the balance variable. When an expression is executed, it produces a single value.
 
 The data type of a variable plays a large role in the operations we can use to manipulate it. We can think of a data type as a combination of a set of values, and a set of operations on those values. For example, the double data type is comprised of values like 4.8 and operations like addition (+). For now, we’ll mainly focus on the set of operations that can be used on numbers and booleans.

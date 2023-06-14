@@ -9,11 +9,11 @@ The char data type can hold any character, like a letter, space, or punctuation 
 It must be surrounded by single quotes, '.
 
 For example:
-
-> char grade = 'A';
+```
+char grade = 'A';
 char firstLetter = 'p';
 char punctuation = '!';
-
+```
 ### Instructions
 
 1. Create a variable called expectedGrade of type char.

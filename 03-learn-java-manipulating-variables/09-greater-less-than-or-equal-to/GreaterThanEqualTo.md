@@ -3,11 +3,12 @@
 #### Greater/Less Than or Equal To
 
 How could we make sure we got paid at least the amount we expected in our paycheck? We could use greater than or equal to, >=, or less than or equal to, <=!
-
-> double paycheckAmount = 620;
+```
+double paycheckAmount = 620;
 double calculatedPaycheck = 15.50 * 40;
 System.out.println(paycheckAmount >= calculatedPaycheck);
 //this will print true, since paycheckAmount equals calculatedPaycheck
+```
 
 #### Instructions
 

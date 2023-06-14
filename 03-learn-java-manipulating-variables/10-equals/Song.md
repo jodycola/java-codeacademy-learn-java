@@ -13,13 +13,14 @@ To use it, we call it on one String, by using ., and pass in the String to compa
 String person1 = "Paul";
 String person2 = "John";
 String person3 = "Paul";
- 
-> System.out.println(person1.equals(person2));
+``` 
+System.out.println(person1.equals(person2));
 // Prints false, since "Paul" is not "John"
- 
-> System.out.println(person1.equals(person3));
+```
+```
+System.out.println(person1.equals(person3));
 // Prints true, since "Paul" is "Paul"
-
+```
 #### Instructions
 
 1. We have three lines from a song in Song.java.

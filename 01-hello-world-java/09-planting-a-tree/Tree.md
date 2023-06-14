@@ -37,30 +37,30 @@ Creating the Class
 6. See how the second statement begins on a new line? We’ll use multiple print statements to plant our tree.
 
 For example:
-
+```
     System.out.println("  *  ");
     System.out.println(" *** ");
     System.out.println(" *** ");
     System.out.println("  *  ");
     System.out.println("  *  ");   
-
-~~~~~~~~~~
+```
+```
    * 
   *** 
   *** 
    *   
    *   
-~~~~~~~~~~
+```
 
 7. Have fun and experiment with different trees.
 
     Here are a couple we made:
 
-~~~~~~~~~~
+```
  ***** 
  ***** 
  ***** 
    *   
    *   
-~~~~~~~~~~
+```
 You can explore other printing methods in the Java documentation.

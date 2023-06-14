@@ -14,34 +14,35 @@ We could also create a new String object by calling the String class when declar
 String salutations = new String("Hello World");
 There are subtle differences in behavior depending on whether you create a String using a String literal or a new String object. We’ll dive into those later, but for now, we’ll almost always be using String literals.
 
-Keep Reading: AP Computer Science A Students
+##### Keep Reading: AP Computer Science A Students
 
 Certain symbols, known as escape sequences, have an alternative use in Java print statements. Escape sequences are interpreted differently by the compiler than other characters. Escape characters begin with the character \.
 
 There are three escape sequences to be aware of for the AP exam.
 
 The \" escape sequence allows us to add quotation marks " to a String value. :
-
-> System.out.println("\"Hello World\"");
+```
+System.out.println("\"Hello World\"");
 // Prints: "Hello World"
-
+```
 If we didn’t use an escape sequence, then Java would think we’re using " to end the String!
 
 Using the \\ escape sequence allows us to place backslashes in our String text:
-
-> System.out.println("This is the backslash symbol: \\");
+```
+System.out.println("This is the backslash symbol: \\");
 // Prints: This is the backslash symbol: \
-
+```
 This is similar to the last example - just like ", \ usually has a special meaning. In this case, \ is used to start an escape sequence. Well, if we don’t want to start an escape sequence and just want a \ in our String, then we’ll use \\ — we’re using an escape sequence to say that we don’t want \ to be interpreted as the start of an escape sequence. It’s a little mind-bending!
 
 Finally, if we place a \n escape sequence in a String, the compiler will output a new line of text:
-
-> System.out.println("Hello\nGoodbye");
+```
+System.out.println("Hello\nGoodbye");
 /*
 Prints:
 Hello
 Goodbye
 */
+```
 
 You can think of \n as the escape sequence for “newline”.
 

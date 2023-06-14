@@ -11,14 +11,14 @@ ints hold positive numbers, negative numbers, and zero. They do not store fracti
 The int data type allows values between -2,147,483,648 and 2,147,483,647, inclusive.
 
 To declare a variable of type int, we use the int keyword before the variable name:
-
-> // int variable declaration
+```
+// int variable declaration
 int yearJavaWasCreated;
 // assignment
 yearJavaWasCreated = 1996;
 // declaration and assignment
 int numberOfPrimitiveTypes = 8;
-
+```
 #### Instructions
 
 1. The file CountComment.java has a number of comments in it.
